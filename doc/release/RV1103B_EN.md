@@ -1,5 +1,36 @@
 # RV1103B Release Note
 
+## rv1103b_usbplug_spinand_cont_v1.10.bin
+
+| Date       | File                     | Build commit | Severity  |
+| ---------- | :----------------------- | ------------ | --------- |
+| 2025-07-28 | rv1103b_usbplug_spinand_cont_v1.10.bin | d86aef4ef0d3    | moderate |
+
+### New
+
+1. Support mxic and gigadevice spinand continues read mode.
+
+------
+
+## rv1103b_tee_ta_v1.04.bin
+
+| Date       | File                     | Build commit | Severity  |
+| ---------- | :----------------------- | ------------ | --------- |
+| 2025-07-04 | rv1103b_tee_ta_v1.04.bin | 76f8f9d23    | important |
+
+### New
+
+1. Support User TA to use OEM OTP KEY for encryption and decryption calculations.
+
+### Fixed
+
+| Index | Severity  | Update                          | Issue description                  | Issue source |
+| ----- | --------- | ------------------------------- | ---------------------------------- | ------------ |
+| 1     | important | Merge official security patches | Address potential security risks   | -            |
+| 2     | important | Reduce shared memory size       | Compatible with 64M memory devices | -            |
+
+------
+
 ## rv1103b_tee_ta_v1.03.bin
 
 | Date       | File                     | Build commit | Severity  |
